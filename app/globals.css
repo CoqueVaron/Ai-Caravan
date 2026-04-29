@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+/* Brand CSS variables */
+@import '../src/tokens/brand-vars.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body, 'EB Garamond', Georgia, serif);
+  color: var(--color-text-default, #111111);
+  background-color: var(--color-bg-default, #ffffff);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}

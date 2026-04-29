@@ -1,0 +1,9 @@
+{
+  "codeConnect": {
+    "parser": "react",
+    "include": ["src/components/**/*.figma.ts", "src/components/**/*.figma.tsx"],
+    "importPaths": {
+      "src/components/*": "@city-rewards/ui"
+    }
+  }
+}

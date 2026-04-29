@@ -1,0 +1,108 @@
+/* Brand CSS variables — set data-brand="a" or data-brand="b" on <html>        */
+/* Source: Figma file Q28lsuD3MwA9k7UIAmHPoI · Foundations · Color Tokens      */
+
+/* ── Brand A · EB Garamond · monochrome ──────────────────────────────────── */
+[data-brand="a"] {
+  /* Brand */
+  --color-brand-primary:        #111111;
+  --color-brand-primary-hover:  #444444;
+  --color-brand-primary-subtle: #F5F5F5;
+  --color-brand-accent:         #767676;
+
+  /* Text */
+  --color-text-default:   #111111;
+  --color-text-secondary: #767676;
+  --color-text-disabled:  #E0E0E0;
+  --color-text-inverse:   #FFFFFF;
+  --color-text-on-brand:  #FFFFFF;
+
+  /* Background */
+  --color-bg-default: #FFFFFF;
+  --color-bg-subtle:  #F5F5F5;
+  --color-bg-muted:   #EEEEEE;
+  --color-bg-brand:   #111111;
+
+  /* Border */
+  --color-border-default: #E0E0E0;
+  --color-border-strong:  #767676;
+  --color-border-brand:   #111111;
+
+  /* Radius */
+  --radius-sm:  2px;
+  --radius-md:  4px;
+  --radius-lg:  8px;
+  --radius-xl:  12px;
+  --radius-2xl: 16px;
+
+  /* Typography */
+  --font-heading: "EB Garamond", Georgia, serif;
+  --font-body:    "EB Garamond", Georgia, serif;
+}
+
+/* ── Brand B · Poppins · violet ───────────────────────────────────────────── */
+[data-brand="b"] {
+  /* Brand */
+  --color-brand-primary:        #7C3AED;
+  --color-brand-primary-hover:  #6D28D9;
+  --color-brand-primary-subtle: #EDE9FE;
+  --color-brand-accent:         #A78BFA;
+
+  /* Text */
+  --color-text-default:   #1E1B4B;
+  --color-text-secondary: #6D28D9;
+  --color-text-disabled:  #C4B5FD;
+  --color-text-inverse:   #FFFFFF;
+  --color-text-on-brand:  #FFFFFF;
+
+  /* Background */
+  --color-bg-default: #FFFFFF;
+  --color-bg-subtle:  #F5F3FF;
+  --color-bg-muted:   #EDE9FE;
+  --color-bg-brand:   #7C3AED;
+
+  /* Border */
+  --color-border-default: #DDD6FE;
+  --color-border-strong:  #8B5CF6;
+  --color-border-brand:   #7C3AED;
+
+  /* Radius — Brand B is rounder */
+  --radius-sm:  8px;
+  --radius-md:  12px;
+  --radius-lg:  16px;
+  --radius-xl:  24px;
+  --radius-2xl: 32px;
+
+  /* Typography */
+  --font-heading: "Poppins", system-ui, sans-serif;
+  --font-body:    "Poppins", system-ui, sans-serif;
+}
+
+/* ── Semantic tokens — same for both brands ──────────────────────────────── */
+:root {
+  --color-success:    #16A34A;
+  --color-success-bg: #DCFCE7;
+  --color-error:      #DC2626;
+  --color-error-bg:   #FEE2E2;
+  --color-warning:    #F59E0B;
+  --color-warning-bg: #FEF3C7;
+  --color-info:       #0891B2;
+  --color-info-bg:    #CFFAFE;
+
+  /* Elevation */
+  --shadow-1: 0 1px 3px  rgba(0,0,0,0.12);
+  --shadow-2: 0 2px 8px  rgba(0,0,0,0.16);
+  --shadow-3: 0 4px 16px rgba(0,0,0,0.20);
+  --shadow-4: 0 8px 32px rgba(0,0,0,0.24);
+
+  /* Grid */
+  --grid-cols-mobile:   4;
+  --grid-cols-tablet:   8;
+  --grid-cols-desktop:  12;
+  --grid-margin-mobile: 16px;
+  --grid-margin-tablet: 24px;
+  --grid-margin-desktop:80px;
+  --grid-gutter-mobile: 8px;
+  --grid-gutter-tablet: 16px;
+  --grid-gutter-desktop:24px;
+  --grid-max-width:     1440px;
+}
